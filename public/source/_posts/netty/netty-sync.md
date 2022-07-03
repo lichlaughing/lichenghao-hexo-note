@@ -1,0 +1,28 @@
+---
+title: Netty 异步机制
+categories: netty
+tags:
+  - netty
+abbrlink: e1356c33
+---
+
+
+
+```java
+ChannelFuture channelFuture = bootstrap.bind(PORT).sync();
+```
+
+Future表示异步的结果，通过方法可以验证执行是否执行完毕
+
+Future-Listener机制
+
+```java
+// 绑定端口
+ChannelFuture channelFuture = bootstrap.bind(PORT).sync();
+channelFuture.addListener(future -> {
+  if(future.isSuccess()){
+    System.out.println("端口监听成功");
+  }
+});
+```
+
