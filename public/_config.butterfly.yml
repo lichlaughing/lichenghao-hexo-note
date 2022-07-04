@@ -152,7 +152,7 @@ post_meta:
     tags: false # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
-    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_type: created # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
@@ -415,7 +415,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text:
+  custom_text: "<a style='text-decoration: none;' target='_blank' href='https://beian.miit.gov.cn'>京ICP备18059158号-4</a>.  <a target='_blank' href='http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cx8aEBsWHRQbEhxdBRoDMwICXRAcHg'>📮 Mail me if you have any questions!</a>"
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -494,7 +494,7 @@ site_verification:
 theme_color:
    enable: true
    main: "#222fa7"
-#   paginator: "#00c4b6"
+   paginator: "#222fa7"
 #   button_hover: "#FF7242"
 #   text_selection: "#00c4b6"
 #   link_color: "#99a9bf"
@@ -651,7 +651,7 @@ preloader: false
 aside:
   enable: true
   hide: false
-  button: true
+  button: false
   mobile: true # display on mobile
   position: right # left or right
   display:
@@ -662,7 +662,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
