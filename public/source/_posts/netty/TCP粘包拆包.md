@@ -5,6 +5,7 @@ tags:
   - netty
   - 粘包
 abbrlink: 13caedd3
+cover: https://blog.lichenghao.cn/upload/2022/07/e444d1c7ly1gndk70ui44j20gg09oq45.jpg
 ---
 
 
@@ -15,7 +16,7 @@ TCP是面向连接，面向流的，提供高可用的服务。收发两端，�
 
 粘包拆包示意图：客户端向服务端发送Msg1和Msg2两个数据包
 
-![](images/FfTKQ1.png)
+![](https://blog.lichenghao.cn/upload/2022/07/FfTKQ1.png)
 
 1. 服务端分别读取到两个独立的数据包Msg1和Msg2
 2. 服务端一次接收了两个数据包Msg1和Msg2粘合在一起，成为TCP粘包

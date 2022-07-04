@@ -5,13 +5,14 @@ tags:
   - 零拷贝
   - NIO
 abbrlink: ca757b8f
+cover: https://blog.lichenghao.cn/upload/2022/07/102701.png
 ---
 
 
 
 BIO && NIO 的区别示意图：
 
-![](images/e444d1c7ly1gn6226fxsmj21b50d5aa7.jpg)
+![](https://blog.lichenghao.cn/upload/2022/07/e444d1c7ly1gn6226fxsmj21b50d5aa7.jpg)
 
 NIO 相关的类都在java.nio包及子包下，对原java.io包中的很多类进行了优化
 
@@ -27,7 +28,7 @@ NIO有三个核心的部分：Channel (通道) ,Buffer (缓冲区) ,Selector (�
 - 数据的读写通过Buffer,与BIO不同的是，Buffer的读写是双向的，通过flip方法切换
 - Channel是双向的，可以返回操作系统的情况
 
-![](images/e444d1c7ly1gn63opc85fj21q80xct9r.jpg)
+![](https://blog.lichenghao.cn/upload/2022/07/e444d1c7ly1gn63opc85fj21q80xct9r.jpg)
 
 
 
@@ -37,7 +38,7 @@ NIO有三个核心的部分：Channel (通道) ,Buffer (缓冲区) ,Selector (�
 
 缓存区本质是一个可以读写数据的内存块，可以看成是一个容器对象，它提供了一组方法去使用这个内存块。（通过源码可以看到Buffer的子类中都维护了一个数组 `final byte[] hb; ` 来处理数据）除了boolean以外的其他基本数据类型都有对应的Bufffer子类,例如IntBuffer等。
 
-![](images/122129.png)
+![](https://blog.lichenghao.cn/upload/2022/07/122129.png)
 
 Buffer提供了主要的几个参数：
 
@@ -106,7 +107,7 @@ public class Test {
 
 MappedByteBuffer 可以让文件在直接在内存中（堆外内存）进行修改，而同步到文件由NIO来完成。其实现类如下：
 
-![](images/173418.png)
+![](https://blog.lichenghao.cn/upload/2022/07/173418.png)
 
 演示下：
 
@@ -213,7 +214,7 @@ Channel是一个接口定义 `public interface Channel extends Closeable`，常�
 
 FileChannel写文件的测试代码：
 
-![](images/PYkNyK.png)
+![](https://blog.lichenghao.cn/upload/2022/07/PYkNyK.png)
 
 ```java
 public class NIOChannelFile {
@@ -675,7 +676,7 @@ public class ChatClient {
 
 首先了解下一次传统 IO 的过程。
 
-![](images/174439.png)
+![](https://blog.lichenghao.cn/upload/2022/07/174439.png)
 
 
 
@@ -699,7 +700,7 @@ public class ChatClient {
 
 那么加入了DMA后，一次 IO 的过程如下所示：
 
-![](images/183754.png)
+![](https://blog.lichenghao.cn/upload/2022/07/183754.png)
 
 
 
@@ -725,7 +726,7 @@ A-->F
 
 那么我们有了DMA技术后，再来看一下如果发送一个文件出去的过程，我们通过代码先read文件，然利用socket发送出去：
 
-![](images/205131.png)
+![](https://blog.lichenghao.cn/upload/2022/07/205131.png)
 
 
 
@@ -733,7 +734,7 @@ A-->F
 
 ### mmap + write
 
-![](images/095908.png)
+![](https://blog.lichenghao.cn/upload/2022/07/095908.png)
 
 mmap() 系统调用函数会直接把内核缓冲区中的数据映射到用户空间中，那么内核和用户之间就不用进行数据的拷贝了。
 
@@ -749,7 +750,7 @@ mmap() 系统调用函数会直接把内核缓冲区中的数据映射到用户�
 
 后来在Linux 内核版本 2.1及以后，提供了一个专门发送文件的系统调用函数`sendfile()`。用了这个函数后，我们的操作变成了：
 
-![](images/102119.png)
+![](https://blog.lichenghao.cn/upload/2022/07/102119.png)
 
 通过 sendfile 替换了用户的读取和写入的系统调用。同样可以将内核缓冲的数据直接拷贝到 socket 缓冲。这样就1一次系统调用，2次上下文切换，3次拷贝。但是CPU仍然参与了拷贝。
 
@@ -757,7 +758,7 @@ mmap() 系统调用函数会直接把内核缓冲区中的数据映射到用户�
 
 如果网卡支持 SG-DMA（*The Scatter-Gather Direct Memory Access*）技术（和普通的 DMA 有所不同），我们可以进一步减少通过 CPU 把内核缓冲区里的数据拷贝到 socket 缓冲区的过程。如下所示：
 
-![](images/102701.png)
+![](https://blog.lichenghao.cn/upload/2022/07/102701.png)
 
 它的过程：
 
@@ -769,5 +770,5 @@ mmap() 系统调用函数会直接把内核缓冲区中的数据映射到用户�
 
 下面是零拷贝的性能测试截图：
 
-![](images/103344.png)
+![](https://blog.lichenghao.cn/upload/2022/07/103344.png)
 

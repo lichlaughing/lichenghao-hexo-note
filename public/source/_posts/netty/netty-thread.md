@@ -5,6 +5,7 @@ tags:
   - netty
   - thread
 abbrlink: 2fe65e9f
+cover: https://blog.lichenghao.cn/upload/2022/07/e444d1c7ly1gndk70ui44j20gg09oq45.jpg
 ---
 
 
@@ -17,7 +18,7 @@ abbrlink: 2fe65e9f
 
 
 
-![](images/e444d1c7ly1gndk70ui44j20gg09oq45.jpg)
+![](https://blog.lichenghao.cn/upload/2022/07/e444d1c7ly1gndk70ui44j20gg09oq45.jpg)
 
 Netty 是异步的，基于事件驱动的高性能网络编程框架。
 
@@ -29,14 +30,14 @@ Netty 对 JDK 自带的 NIO 的 API 进行了封装，降低了网络编程的�
 
 ### BIO 模型
 
-![](images/163655.png)
+![](https://blog.lichenghao.cn/upload/2022/07/163655.png)
 
 - 每个请求都需要独立的线程去处理，如果并发很大的话，线程会占用很大的系统资源。
 - 处理线程创建后，如果没有处理的事件，那么该线程就阻塞。浪费线程资源。
 
 ### Reactor 模型
 
-![](images/164358.png)
+![](https://blog.lichenghao.cn/upload/2022/07/164358.png)
 
 - 基 于I/O 复用模型：多个连接共用一个阻塞对象，程序只需要在一个阻塞对象等待，无需阻塞所有的连接。当有新的数据可以处理的时候，操作系统会通知程序，线程从阻塞状态返回，开始处理数据。
 - 基于线程池复用线程资源，不必为每个请求创建线程，将连接完成后的业务处理交给线程池处理，一个线程可以处理多个连接的业务。
@@ -53,7 +54,7 @@ Reactor 模式分为如下三种：
 
 模型示意图：
 
-![](images/1184824.png)
+![](https://blog.lichenghao.cn/upload/2022/07/1184824.png)
 
 
 
@@ -77,7 +78,7 @@ Reactor 模式分为如下三种：
 
 模型示意图：
 
-![](images/195625.png)
+![](https://blog.lichenghao.cn/upload/2022/07/195625.png)
 
 - 通过 select 监控客户端请求事件，通过 dispatch 进行分发。
 - 如果是建立连接的请求，由 Acceptor 通过 accept 处理连接请求，同时创建对应的 handler 对象处理完成连接后的事件。
@@ -98,7 +99,7 @@ Reactor 模式分为如下三种：
 
 模型示意图：
 
-![](images/201840.png)
+![](https://blog.lichenghao.cn/upload/2022/07/201840.png)
 
 - Reactor 主线程 MainReactor 对象通过 select 监听连接事件，收到事件后，通过 Acceptor 处理连接事件。
 - 当 Acceptor 处理连接事件后，MainReactor 将连接分配给 SubReactor 。
@@ -118,7 +119,7 @@ Reactor 模式分为如下三种：
 
 工作流程示意图：
 
-![](images/G9Cwow.png)
+![](https://blog.lichenghao.cn/upload/2022/07/G9Cwow.png)
 
 
 
