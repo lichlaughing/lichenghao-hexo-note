@@ -4,6 +4,7 @@ categories: java
 tags:
   - jms
   - java
+date: 2022-01-01 00:11:00
 abbrlink: 636e69ca
 ---
 Java Message Service (JMS)
@@ -14,7 +15,7 @@ Java消息服务 (JMS) API是一个消息传递标准，它允许基于Java平�
 
 比如把一个客户端对消息的生产和消费展示如下：
 
-![](images/1577107.png)
+![](https://blog.lichenghao.cn/upload/2022/07/1577107.png)
 
 
 

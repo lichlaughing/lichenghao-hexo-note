@@ -5,6 +5,7 @@ tags:
   - jdk8
   - LocalDate
   - LocalDateTime
+date: 2022-01-01 00:11:00
 abbrlink: 1cf35d86
 ---
 JDK1.8 之后提供了一套全新的时间日期 API 这套全新的 API 在 java.time 包下。相比于传统工具类，该工具类更加简洁，方便。

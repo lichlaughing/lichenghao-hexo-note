@@ -4,6 +4,7 @@ categories: java
 tags:
   - java
   - stream
+date: 2022-01-01 00:11:00
 abbrlink: 4be4a15a
 ---
 Stream 是 Java8 API 推出的一个新的抽象，它可以像写 SQL 语句一样去处理 Java 集合或者更高阶的抽象处理，比如排序，过滤，分组聚合等。
