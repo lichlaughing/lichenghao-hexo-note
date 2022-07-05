@@ -45,10 +45,6 @@ abbrlink: eb511f00
 
 ​	{% post_link java/basic/消息协议&JMS %}
 
-
-
-
-
 ​	<!-- endtab -->
 
 
@@ -62,6 +58,78 @@ abbrlink: eb511f00
 
 
 ​	{% endtabs %}
+
+<!-- endtab -->
+
+
+
+<!-- tab spring -->
+
+{% post_link framework/spring/springbean生命周期和作用域 %}
+
+{% post_link framework/spring/spring-IOC-DI %}
+
+{% post_link framework/spring/spring-aop %}
+
+{% post_link framework/spring/spring-拦截器 %}
+
+{% post_link framework/spring/spring-cache %}
+
+<!-- endtab -->
+
+
+
+<!-- tab springboot -->
+
+{% post_link framework/springboot/springboot-validation %}
+
+{% post_link framework/springboot/springboot-mybatis %}
+
+{% post_link framework/springboot/springboot-jpa %}
+
+{% post_link framework/springboot/springboot-websocket %}
+
+<!-- endtab -->
+
+
+
+<!-- tab springcloud -->
+
+{% post_link framework/springcloud/README %}
+
+{% post_link framework/springcloud/搭建微服务工程 %}
+
+- 服务注册
+  - {% post_link framework/springcloud/service-registration/eureka %}
+  - {% post_link framework/springcloud/service-registration/consul %}
+- 服务调用
+  - {% post_link framework/springcloud/service-call/Ribbon %}
+  - {% post_link framework/springcloud/service-call/Feign %}
+  - {% post_link framework/springcloud/service-call/OpenFeign %}
+- 服务降级
+  - {% post_link framework/springcloud/service-degradation/hystrix %}
+- 服务网关
+  - {% post_link framework/springcloud/service-gateway/zuul %}
+  - {% post_link framework/springcloud/service-gateway/gateway %}
+- 配置中心
+  - {% post_link framework/springcloud/service-config/config %}
+- 消息总线
+  - {% post_link framework/springcloud/service-bus-message/bus %}
+  - {% post_link framework/springcloud/service-bus-message/stream %}
+- 链路跟踪
+  - {% post_link framework/springcloud/service-link-tracking/sleuth %}
+- 服务部署
+  - {% post_link framework/springcloud/service-deployment/jenkins %}
+  - {% post_link framework/springcloud/service-deployment/Alibaba-Cloud-Toolkit %}
+- 服务监控
+  - {% post_link framework/springcloud/service-monitoring/list %}
+  - {% post_link framework/springcloud/service-monitoring/springboot-admin %}
+  - {% post_link framework/springcloud/service-monitoring/SkyWalking %}
+  - {% post_link framework/springcloud/service-monitoring/elastic-apm %}
+- Spring Cloud Alibaba
+  - {% post_link framework/springcloud/alibaba/README %}
+  - {% post_link framework/springcloud/alibaba/nacos %}
+  - {% post_link framework/springcloud/alibaba/sentinel %}
 
 <!-- endtab -->
 
@@ -86,7 +154,21 @@ abbrlink: eb511f00
 
 <!-- endtab -->
 
+<!-- tab linux -->
 
+{% post_link linux/centos7-常用命令 %}
+
+{% post_link linux/centos7-常用配置 %}
+
+{% post_link linux/centos7-软件&环境安装 %}
+
+{% post_link linux/centos7-单机部署FastDFS %}
+
+{% post_link linux/centos7-排查CPU占用高JAVA代码 %}
+
+{% post_link linux/shell脚本 %}
+
+<!-- endtab -->
 
 {% endtabs %}
 
