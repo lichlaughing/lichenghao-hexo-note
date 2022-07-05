@@ -13,7 +13,6 @@ menu:
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
-    
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -46,7 +45,7 @@ social:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
 
@@ -493,9 +492,9 @@ site_verification:
 #   meta_theme_color_dark: "#0d0d0d"
 
 theme_color:
-   enable: true
-   main: "#222fa7"
-   paginator: "#222fa7"
+  enable: true
+  main: '#222fa7'
+  paginator: '#222fa7'
 #   button_hover: "#FF7242"
 #   text_selection: "#00c4b6"
 #   link_color: "#99a9bf"
@@ -609,7 +608,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: 
+  global-font-size:
   code-font-size:
   font-family: architects
   code-font-family:
@@ -683,7 +682,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
@@ -883,7 +882,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false  
+  # Add version number to CDN, true or false
   version: false
 
   # Custom format
