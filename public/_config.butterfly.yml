@@ -187,7 +187,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   style_simple: true # for post
 
 post_copyright:
