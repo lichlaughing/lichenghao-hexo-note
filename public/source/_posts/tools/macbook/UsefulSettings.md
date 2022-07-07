@@ -6,6 +6,7 @@ tags:
 keywords: macbook
 abbrlink: b62b2404
 date: 2022-05-25 12:30:00
+cover: https://blog.lichenghao.cn/upload/2022/07/1B1E0B07-macbook.jpg
 ---
 ## 取消系统更新提示
 

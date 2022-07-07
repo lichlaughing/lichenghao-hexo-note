@@ -4,6 +4,7 @@ categories: jenkins
 tags:
   - jenkins
 keywords: jenkins
+cover: https://blog.lichenghao.cn/upload/2022/07/CCE8BC12BC8D4889842C36A29245C295.png
 abbrlink: 9a7f448e
 date: 2022-05-26 12:50:00
 ---

@@ -7,6 +7,7 @@ tags:
 keywords: macbook
 abbrlink: 33a0b12c
 date: 2022-05-25 12:30:00
+cover: https://blog.lichenghao.cn/upload/2022/07/1B1E0B07-macbook.jpg
 ---
 必备 APP
 

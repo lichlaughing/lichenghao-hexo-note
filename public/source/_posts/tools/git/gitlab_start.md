@@ -7,6 +7,7 @@ tags:
 keywords: 'git,gitlab'
 abbrlink: 2ff242c3
 date: 2022-05-26 12:40:00
+cover: https://blog.lichenghao.cn/upload/2022/07/DE697120-gitlab.png
 ---
 ## 部署 gitlab
 

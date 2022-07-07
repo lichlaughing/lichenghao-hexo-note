@@ -7,6 +7,7 @@ tags:
 keywords: sonarqube
 abbrlink: bfe6f3bc
 date: 2022-05-26 13:50:00
+cover: https://blog.lichenghao.cn/upload/2022/07/A889F46E-sonarqube.png
 ---
 Gitlab 集成，先安装 Gitlab
 

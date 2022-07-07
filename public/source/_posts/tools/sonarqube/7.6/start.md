@@ -6,6 +6,7 @@ tags:
 keywords: sonarqube
 abbrlink: 4726e5d1
 date: 2022-05-26 13:50:00
+cover: https://blog.lichenghao.cn/upload/2022/07/6A0298B6-sonarqube.png
 ---
 
 SonarQube是一个用于代码质量管理的开源平台，用于管理源代码的质量。同时  SonarQube 还对大量的持续集成工具提供了接口支持，可以很方便地在持续集成中使用  SonarQube。SonarQube 支持插件扩展，拥有丰富的插件。

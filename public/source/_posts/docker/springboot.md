@@ -7,6 +7,7 @@ tags:
 keywords: docker
 abbrlink: dfef8849
 date: 2022-05-25 12:30:00
+cover: https://blog.lichenghao.cn/upload/2022/07/D7072609-docker.png
 ---
 ## Springboot 打包成镜像发布到镜像仓库
 

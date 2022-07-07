@@ -7,6 +7,7 @@ tags:
 keywords: 'docker,Dockerfile'
 abbrlink: e3a7e431
 date: 2022-05-25 12:30:00
+cover: https://blog.lichenghao.cn/upload/2022/07/D7072609-docker.png
 ---
 ## Docker commit
 

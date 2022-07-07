@@ -7,6 +7,7 @@ tags:
 keywords: 'docker,compose'
 abbrlink: '60641507'
 date: 2022-05-25 12:30:00
+cover: https://blog.lichenghao.cn/upload/2022/07/D7072609-docker.png
 ---
 **Compose 是用于定义和运行多容器 Docker 应用程序的工具**。通过容器编排，可以让容器按照一定的顺序执行。
 

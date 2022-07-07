@@ -6,6 +6,7 @@ tags:
 keywords: git
 abbrlink: 5fddf106
 date: 2022-05-26 12:40:00
+cover: https://blog.lichenghao.cn/upload/2022/07/73239168-git.png
 ---
 ## 常用命令
 
