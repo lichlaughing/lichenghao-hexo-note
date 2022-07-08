@@ -272,7 +272,7 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -365,9 +365,10 @@ giscus:
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
 remark42:
-  host: # Your Host URL
-  siteId: # Your Site ID
+  host: http://192.168.1.240:2345 # Your Host URL
+  siteId: note.lichenghao.cn # Your Site ID
   option:
+      - components: ['embed']
 
 # Chat Services
 # --------------------------------------
@@ -610,14 +611,14 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: architects
+  font-family: 
   code-font-family:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family:
+  font-family: architects
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -629,7 +630,7 @@ hr_icon:
 subtitle:
   enable: true
   # Typewriter Effect (打字效果)
-  effect: true
+  effect: false
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
@@ -638,9 +639,10 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 1
+  source: subtitle
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub:
+  sub: 
+    - 废物就是控制不住自己！
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -880,7 +882,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: cdnjs
 
   # Add version number to CDN, true or false
   version: false

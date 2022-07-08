@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: chenghao.li
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -126,8 +126,7 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - 'exclude1.com'
-    - 'exclude2.com'
+    - 'blog.lichenghao.cn'
 # 站点地图
 sitemap:
   path:
