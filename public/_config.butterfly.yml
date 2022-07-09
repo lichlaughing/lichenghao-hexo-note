@@ -268,7 +268,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
-  use: # Valine,Disqus
+  use: twikoo,giscus # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -346,17 +346,17 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
-  region:
+  envId: hexoblog-5gv9ji3oc56cb4c0
+  region: ap-shanghai
   visitor: false
   option:
 
 # Giscus
 # https://giscus.app/
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: lichlaughing/lichenghao-hexo-note
+  repo_id: R_kgDOHmaiyw
+  category_id: DIC_kwDOHmaiy84CQHsU
   theme:
     light: light
     dark: dark
