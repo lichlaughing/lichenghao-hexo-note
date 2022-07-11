@@ -323,6 +323,8 @@ abbrlink: eb511f00
 
 {% post_link linux/shell脚本 %}
 
+{% post_link linux/centos7-定时任务 %}
+
 <!-- endtab -->
 
 
@@ -359,6 +361,8 @@ abbrlink: eb511f00
 ​		{% post_link tools/idea/必备插件 %}
 
 ​		{% post_link tools/idea/常用配置 %}
+
+​		{% post_link tools/idea/leetcode %}
 
 ​		{% post_link tools/idea/问题记录 %}
 
@@ -430,6 +434,13 @@ abbrlink: eb511f00
 <!-- endtab -->
 
 
+
+<!-- tab Frontend -->
+{% post_link frontend/html5&css3/selectors %}
+{% post_link frontend/html5&css3/box %}
+{% post_link frontend/html5&css3/float %}
+{% post_link frontend/html5&css3/position %}
+<!-- endtab -->
 
 
 
