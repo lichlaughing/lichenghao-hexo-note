@@ -402,6 +402,8 @@ abbrlink: eb511f00
 
 ​    {% post_link tools/jenkins/install %}
 
+​	{% post_link tools/jenkins/faq %}
+
 ​	<!-- endtab -->
 
 
