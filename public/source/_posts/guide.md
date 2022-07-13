@@ -100,11 +100,11 @@ abbrlink: eb511f00
 
 ​		{% post_link database/mysql/其他查询 %}
 
-​		{% post_link database/mysql/问题记录 %}
-
 ​		{% post_link database/mysql/锁 %}
 
 ​		{% post_link database/mysql/存储引擎 %}
+
+​		{% post_link database/mysql/faq %}
 
 ​		<!-- endtab -->
 
@@ -200,6 +200,8 @@ abbrlink: eb511f00
 
 {% post_link framework/springboot/springboot-validation %}
 
+{% post_link framework/springboot/springboot-fluent-validator %}
+
 {% post_link framework/springboot/springboot-mybatis %}
 
 {% post_link framework/springboot/springboot-jpa %}
@@ -207,8 +209,6 @@ abbrlink: eb511f00
 {% post_link framework/springboot/springboot-websocket %}
 
 {% post_link framework/springboot/springboot-生产实践 %}
-
-
 
 <!-- endtab -->
 
