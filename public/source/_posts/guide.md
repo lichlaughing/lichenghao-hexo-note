@@ -35,6 +35,8 @@ abbrlink: eb511f00
 
 ​	{% post_link java/basic/泛型 %}
 
+​	{% post_link java/basic/接口和抽象类的区别 %}
+
 ​	{% post_link java/basic/正则表达式 %}
 
 ​	{% post_link java/basic/位运算-原码-反码-补码 %}

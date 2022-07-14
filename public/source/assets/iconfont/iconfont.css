@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3523001 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1657792194625') format('woff2'),
+       url('iconfont.woff?t=1657792194625') format('woff'),
+       url('iconfont.ttf?t=1657792194625') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cloud:before {
+  content: "\e6f3";
+}
+
+.icon-linux:before {
+  content: "\e80b";
+}
+
+.icon-toolbox:before {
+  content: "\ebac";
+}
+
+.icon-java:before {
+  content: "\e639";
+}
+
+.icon-bxl-spring-boot:before {
+  content: "\e6fe";
+}
+

@@ -1,6 +1,8 @@
 ---
 title: 接口测试工具 Postman
-categories: interfacetest
+categories: 
+  - tools
+  - interfacetest
 tags:
   - interfacetest
 keywords: interfacetest

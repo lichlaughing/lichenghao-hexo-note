@@ -1,6 +1,8 @@
 ---
 title: Git Gitlab 私有部署
-categories: git
+categories:
+  - tools
+  - git
 tags:
   - git
   - gitlab

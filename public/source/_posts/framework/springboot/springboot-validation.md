@@ -8,6 +8,7 @@ categories: springboot
 keywords: springboot 参数校验
 abbrlink: 763e1a35
 date: 2022-07-13 10:39:03
+cover: https://blog.lichenghao.cn/upload/2022/07/24ADBEC2-springboot.png
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: 接口测试工具 Apipost
-categories: interfacetest
+categories: 
+  - tools
+  - interfacetest
 tags:
   - interfacetest
 keywords: interfacetest

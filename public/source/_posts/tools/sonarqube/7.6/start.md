@@ -1,6 +1,8 @@
 ---
 title: Sonarqube7.6 安装&汉化
-categories: sonarqube
+categories: 
+  - tools
+  - sonarqube
 tags:
   - sonarqube
 keywords: sonarqube

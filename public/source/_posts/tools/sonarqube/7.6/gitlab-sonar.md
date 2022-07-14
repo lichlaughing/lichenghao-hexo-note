@@ -1,6 +1,8 @@
 ---
 title: Sonarqube7.6 gitalb集成
-categories: sonarqube
+categories: 
+  - tools
+  - sonarqube
 tags:
   - sonarqube
   - gitlab

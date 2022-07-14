@@ -1,6 +1,8 @@
 ---
 title: Maven 简介
-categories: maven
+categories: 
+  - tools
+  - maven
 tags:
   - maven
 keywords: Apache Maven

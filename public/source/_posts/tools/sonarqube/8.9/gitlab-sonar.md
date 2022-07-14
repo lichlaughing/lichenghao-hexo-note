@@ -1,6 +1,8 @@
 ---
 title: Sonarqube8.9 与 gitlab 集成
-categories: sonarqube
+categories: 
+  - tools
+  - sonarqube
 tags:
   - sonarqube
   - gitlab

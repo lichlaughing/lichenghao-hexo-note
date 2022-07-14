@@ -1,6 +1,8 @@
 ---
 title: Macbook Pro 推荐 APP
-categories: macbook
+categories: 
+  - tools
+  - macbook
 tags:
   - macbook
   - app

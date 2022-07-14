@@ -1,6 +1,8 @@
 ---
 title: Git 常用命令
-categories: git
+categories:
+  - tools
+  - git
 tags:
   - git
 keywords: git

@@ -368,7 +368,7 @@ remark42:
   host: http://192.168.1.240:2345 # Your Host URL
   siteId: note.lichenghao.cn # Your Site ID
   option:
-      - components: ['embed']
+    - components: ['embed']
 
 # Chat Services
 # --------------------------------------
@@ -515,7 +515,7 @@ theme_color:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 300px
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -611,7 +611,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: 
+  font-family:
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -641,7 +641,7 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: subtitle
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub: 
+  sub:
     - 废物就是控制不住自己！
 
 # Loading Animation (加載動畫)
@@ -866,7 +866,8 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    - <link rel="stylesheet" href="/assets/iconfont/iconfont.css">
+    - <link rel="stylesheet" href="/assets/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
 

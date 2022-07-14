@@ -1,6 +1,8 @@
 ---
 title: Jenkins
-categories: jenkins
+categories: 
+  - tools
+  - jenkins
 tags:
   - jenkins
 keywords: jenkins

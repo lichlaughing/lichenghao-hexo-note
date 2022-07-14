@@ -3,7 +3,9 @@ title: IntelliJ IDEA 配置 Leetcode 进行疯狂的刷题！
 tags:
   - idea
   - leetcode
-categories: idea
+categories: 
+  - tools
+  - idea
 keywords: IntelliJ IDEA Leetcode
 cover: https://blog.lichenghao.cn/upload/2022/07/B118E8A4-leetcode.png
 abbrlink: 697634be

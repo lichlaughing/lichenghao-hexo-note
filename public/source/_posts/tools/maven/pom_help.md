@@ -1,6 +1,8 @@
 ---
 title: Maven POM 配置说明
-categories: maven
+categories: 
+  - tools
+  - maven
 tags:
   - maven
 keywords: Apache Maven

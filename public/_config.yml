@@ -157,3 +157,41 @@ algolia:
   adminApiKey: '92024109318347a4abf02e0d12eeca77'
   indexName: 'note.lichenghao.cn'
   chunkSize: 5000
+
+# 顶部分类
+magnet:
+  enable: true
+  priority: 1
+  enable_page: /
+  type: categories
+  devide: 2
+  display:
+    - name: java
+      display_name: Java入门
+      icon: <i class="iconfont icon-java"></i>
+    - name: spring
+      display_name: Spring
+      icon: <i class="iconfont icon-bxl-spring-boot"></i>
+    - name: springboot
+      display_name: Springboot
+      icon: <i class="iconfont icon-bxl-spring-boot"></i>
+    - name: springcloud
+      display_name: SpringCloud
+      icon: <i class="iconfont icon-bxl-spring-boot"></i>
+    - name: linux
+      display_name: Linux
+      icon: <i class="iconfont icon-linux"></i>
+    - name: tools
+      display_name: 工具箱
+      icon: <i class="iconfont icon-toolbox"></i>
+  color_setting:
+    text_color: black
+    text_hover_color: white
+    background_color: '#f2f2f2'
+    background_hover_color: '#b30070'
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
+  plus_style: ''

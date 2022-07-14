@@ -1,6 +1,8 @@
 ---
 title: Sonarqube8.9 部署&汉化
-categories: sonarqube
+categories: 
+  - tools
+  - sonarqube
 tags:
   - sonarqube
 keywords: sonarqube

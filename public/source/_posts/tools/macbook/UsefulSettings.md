@@ -1,6 +1,8 @@
 ---
 title: Macbook Pro 实用设置
-categories: macbook
+categories: 
+  - tools
+  - macbook
 tags:
   - macbook
 keywords: macbook

@@ -3,7 +3,9 @@ title: Jenkins 使用常见问题
 tags:
   - jenkins
   - faq
-categories: jenkins
+categories: 
+  - tools
+  - jenkins
 keywords: jenkins
 cover: 'https://blog.lichenghao.cn/upload/2022/07/faq.png'
 abbrlink: e1c81179
