@@ -154,7 +154,6 @@ feed:
 algolia:
   applicationID: 'L74DX9RA8V'
   apiKey: '2318369c0085216b7ae72294f83915d5'
-  adminApiKey: '92024109318347a4abf02e0d12eeca77'
   indexName: 'note.lichenghao.cn'
   chunkSize: 5000
 
