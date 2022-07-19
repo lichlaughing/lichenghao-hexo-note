@@ -2,3 +2,7 @@
   font-family: architects;
   src: url('../font/ArchitectsDaughter.ttf');
 }
+@font-face {
+  font-family: FiraMono;
+  src: url('../font/FiraMono-Regular.ttf');
+}

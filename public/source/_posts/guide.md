@@ -47,6 +47,8 @@ abbrlink: eb511f00
 
 ​	{% post_link java/basic/消息协议&JMS %}
 
+​	{% post_link java/basic/事件机制 %}
+
 ​	<!-- endtab -->
 
 
