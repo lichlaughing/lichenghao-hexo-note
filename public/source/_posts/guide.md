@@ -70,6 +70,18 @@ abbrlink: eb511f00
 
 ​	<!-- tab JVM -->
 
+​	{% post_link java/jvm/README %}
+​	{% post_link java/jvm/内存结构 %}
+​	{% post_link java/jvm/垃圾回收概述 %}
+​	{% post_link java/jvm/五种引用类型 %}
+​	{% post_link java/jvm/垃圾回收算法 %}
+​	{% post_link java/jvm/GC相关参数 %}
+​	{% post_link java/jvm/垃圾回收器 %}
+​	{% post_link java/jvm/GC调优示例 %}
+​	{% post_link java/jvm/JMM %}
+
+​	{% post_link java/jvm/ClassLoader/类加载过程 %}
+
 ​	<!-- endtab -->
 
 ​	

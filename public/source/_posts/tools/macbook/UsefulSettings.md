@@ -75,6 +75,16 @@ sudo softwareupdate --reset-ignored
 
 
 
+## VIM 高亮 & 行号
+
+打开 terminal 复制 `/usr/share/vim/vimrc` 到家目录下并重命名为 `.vimrc`, 然后编辑该文件，增加以下几行：
+
+```properties
+syntax on
+set nu!
+set autoindent
+```
+
 
 
 
