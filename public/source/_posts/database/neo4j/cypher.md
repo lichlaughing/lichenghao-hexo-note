@@ -4,6 +4,7 @@ categories: neo4j
 tags:
   - neo4j
 keywords: neo4j
+cover: https://blog.lichenghao.cn/upload/2022/07/156d3e4e-neo4j.png
 abbrlink: 156d3e4e
 date: 2022-02-20 12:30:00
 ---

@@ -267,7 +267,10 @@ mvn archetype:generate -DgroupId=cn.com.chenghaoli -DartifactId=web-test -Darche
 
 Maven生命周期描述的是一次项目构建过程经历了多少事件：
 
-```mermaid
+{% mermaid %}
+
+%%{init: {'securityLevel': 'loose', 'theme':'base'}}%%
+
 graph LR
 subgraph 生命周期
 start(...)
@@ -285,7 +288,7 @@ C-->D
 D-->E
 E-->F
 end
-```
+{% endmermaid %}
 
 
 

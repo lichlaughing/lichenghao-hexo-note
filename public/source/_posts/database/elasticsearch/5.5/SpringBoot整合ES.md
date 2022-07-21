@@ -1,12 +1,12 @@
 ---
-title: Elasticsearch SpringBoot整合ES
+title: Elasticsearch5.5 SpringBoot整合ES
 categories: elasticsearch
 tags:
   - elasticsearch
   - springboot
 keywords: elasticsearch
 abbrlink: 448c99cd
-date: 2022-02-15 12:30:00
+date: 2022-02-15 12:41:00
 ---
 
 

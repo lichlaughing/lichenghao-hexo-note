@@ -9,7 +9,7 @@ tags:
   - DCL
 keywords: 'msyql,数据库,DDL,DML,DQL,DCL'
 abbrlink: cc5a40bb
-date: 2022-02-02 12:30:00
+date: 2022-02-02 09:32:00
 ---
 
 

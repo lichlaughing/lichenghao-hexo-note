@@ -6,3 +6,7 @@
   font-family: FiraMono;
   src: url('../font/FiraMono-Regular.ttf');
 }
+/*内容区*/
+#article-container{
+  font-size: 15px;
+}

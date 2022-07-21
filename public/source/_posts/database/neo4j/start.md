@@ -6,6 +6,7 @@ tags:
   - cypher
   - springboot
 keywords: neo4j
+cover: https://blog.lichenghao.cn/upload/2022/07/2c72a246-neo4j.png
 abbrlink: 2c72a246
 date: 2022-02-20 12:30:00
 ---

@@ -5,7 +5,8 @@ categories:
   - interfacetest
 tags:
   - interfacetest
-keywords: interfacetest
+keywords: postman,接口测试
+cover: https://blog.lichenghao.cn/upload/2022/07/BC3D5A1D-postman.jpg
 abbrlink: 1772a845
 date: 2022-04-07 13:50:00
 ---

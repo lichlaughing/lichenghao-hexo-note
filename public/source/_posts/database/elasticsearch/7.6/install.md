@@ -1,11 +1,11 @@
 ---
-title: Elasticsearch-7.6.2 安装部署
+title: Elasticsearch7.6.2 安装部署
 categories: elasticsearch
 tags:
   - elasticsearch
 keywords: elasticsearch
 abbrlink: '476e8838'
-date: 2022-02-15 12:30:00
+date: 2022-05-15 12:35:00
 ---
 ## 单机部署
 
